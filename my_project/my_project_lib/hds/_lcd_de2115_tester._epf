@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom tb
+DEFAULT_FILE atom lcd_de2115_tester_tb.vhd

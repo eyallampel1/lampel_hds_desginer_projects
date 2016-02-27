@@ -1,0 +1,23 @@
+--
+-- VHDL Architecture my_project_lib.LEDS1.behave
+--
+-- Created:
+--          by - Suzana.UNKNOWN (SUZANA-PC)
+--          at - 11:11:43 25/02/2016
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY LEDS1 IS
+-- Declarations
+
+END LEDS1 ;
+
+--
+ARCHITECTURE behave OF LEDS1 IS
+BEGIN
+END behave;
+

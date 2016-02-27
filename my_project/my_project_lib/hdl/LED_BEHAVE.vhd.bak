@@ -1,0 +1,34 @@
+--
+-- VHDL Architecture my_project_lib.LED.BEHAVE
+--
+-- Created:
+--          by - Suzana.UNKNOWN (SUZANA-PC)
+--          at - 11:05:40 25/02/2016
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY LED IS
+-- Declarations
+PORT(
+  LED0 :out std_logic;
+  LED1:out std_logic;
+  LED2:out std_logic;
+  LED4:out std_logic;
+  LED3:out std_logic
+);
+
+END LED ;
+
+--
+ARCHITECTURE BEHAVE OF LED IS
+BEGIN
+LED0<= '1';
+LED1<= '1';
+LED2 <= '1';
+LED3 <='0';
+END BEHAVE;
+

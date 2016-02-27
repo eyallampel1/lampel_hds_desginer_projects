@@ -1,0 +1,63 @@
+|lcd_de2115
+pushButtons[0] => ~NO_FANOUT~
+pushButtons[1] => ~NO_FANOUT~
+pushButtons[2] => ~NO_FANOUT~
+pushButtons[3] => ~NO_FANOUT~
+switchs[0] => leds_block:U_0.switch1
+switchs[1] => ~NO_FANOUT~
+switchs[2] => hex_block_diagram:U_1.switch2
+switchs[3] => hex_block_diagram:U_1.switch3
+switchs[4] => hex_block_diagram:U_1.switch4
+switchs[5] => hex_block_diagram:U_1.switch5
+switchs[6] => ~NO_FANOUT~
+switchs[7] => ~NO_FANOUT~
+switchs[8] => ~NO_FANOUT~
+switchs[9] => ~NO_FANOUT~
+switchs[10] => ~NO_FANOUT~
+switchs[11] => ~NO_FANOUT~
+switchs[12] => ~NO_FANOUT~
+switchs[13] => ~NO_FANOUT~
+switchs[14] => ~NO_FANOUT~
+switchs[15] => ~NO_FANOUT~
+switchs[16] => ~NO_FANOUT~
+switchs[17] => ~NO_FANOUT~
+
+
+|lcd_de2115|hex_block_diagram:U_1
+switch2 => hexGenerator:U_0.switch2
+switch3 => hexGenerator:U_0.switch3
+switch4 => hexGenerator:U_0.switch4
+switch5 => hexGenerator:U_0.switch5
+
+
+|lcd_de2115|hex_block_diagram:U_1|hexGenerator:U_0
+switch4 => Mux0.IN17
+switch4 => Mux1.IN9
+switch4 => Mux2.IN17
+switch4 => Mux3.IN9
+switch4 => Mux4.IN17
+switch4 => Mux5.IN9
+switch4 => Mux6.IN9
+switch5 => Mux0.IN16
+switch5 => Mux1.IN8
+switch5 => Mux2.IN16
+switch5 => Mux3.IN8
+switch5 => Mux4.IN16
+switch5 => Mux5.IN8
+switch5 => Mux6.IN8
+switch3 => Mux0.IN18
+switch3 => Mux1.IN10
+switch3 => Mux2.IN18
+switch3 => Mux4.IN18
+switch2 => Mux0.IN19
+switch2 => Mux2.IN19
+switch2 => Mux3.IN10
+switch2 => Mux4.IN19
+switch2 => Mux5.IN10
+switch2 => Mux6.IN10
+
+
+|lcd_de2115|leds_block:U_0
+switch1 => LED4.DATAIN
+
+
